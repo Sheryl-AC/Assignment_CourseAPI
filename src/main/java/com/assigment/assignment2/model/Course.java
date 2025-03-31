@@ -16,7 +16,7 @@ public class Course {
   @Column(columnDefinition = "int default 10000")
   private int fee;
   @Column(columnDefinition = "int default 100")
-  private int credits;
+  private int credits=100;
   
   
 public int getId() {
